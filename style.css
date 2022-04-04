@@ -1,0 +1,68 @@
+body {
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+  
+
+
+.content {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+  
+#anotherBtn {
+    
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+  
+#anotherBtn:hover {
+    background: wheat;
+    color: black;
+}
+
+#display{
+    position: fixed;
+    margin-top: 14%;
+    width: 80%;
+  
+    
+}
+
+.errorMessage{
+    margin-top: 12%;
+    position: fixed;
+    color: crimson;
+    font-weight: bold;
+}
+
+.input-group{
+    position: fixed;
+    width: 500px;
+    margin-left: 18%;
+    padding-top: 0.5rem;
+}
+
+.input-group-text{
+    background-color: rgb(27, 138, 212);
+    font-weight: bold;
+    color: white;
+}
+
+#addBtn{
+    background-color: rgb(201, 109, 164);
+    color: white;
+
+}
+.successful{
+    background-color: plum;
+}
+
+  
