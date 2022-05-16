@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: plum;
     box-sizing: border-box;
     margin: 0;
     font-family: Arial;
@@ -35,14 +35,27 @@ th, td {
     bottom: 0;
     padding: 20px;
 }
+.destination, .queue, .fare{
+    margin: auto;
+    height: auto;
+    padding: 0.2em;
+    width: 100px;
+}
+.para, .another{
+    text-align: center;
+}
   
 .btn-dark {
+    background-color: #4c0a9c;
     font-size: 12px;
     padding: 10px;
     border: none;
     color: #fff;
     cursor: pointer;
 }
+.row{
+    text-align: center;
+} 
   
 .btn-dark:hover {
     background: wheat;
