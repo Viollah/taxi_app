@@ -109,9 +109,10 @@
             <div class="col">
                 <div x-data="{ open: false }">
                     <button class="btn btn-dark btn-sm" x-on:click="open = ! open">Add Destination</button>
-                 
+                 <hr>
                     <div x-show="open">
                         <p>Destination: <input  class="destination" type="text" x-model="userDestination "></p>
+                        
                         <p>Queue: <input class="queue" type="text" x-model="userQueue"></p>
                         <p>Fare: <input class="fare"  type="text" x-model.number="userFare"></p>
                         

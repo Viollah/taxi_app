@@ -36,10 +36,11 @@ th, td {
     padding: 20px;
 }
 .destination, .queue, .fare{
+    display: grid;
     margin: auto;
     height: auto;
     padding: 0.2em;
-    width: 100px;
+    width: 150px;
 }
 .para, .another{
     text-align: center;
